@@ -1,0 +1,43 @@
+{
+  "resourceType": "Patient",
+  "id": "example",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          }
+        ]
+      },
+      "system": "urn:oid:1.2.36.146.595.217.0.1",
+      "value": "12345"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "use": "official",
+      "family": "Demo",
+      "given": [
+        "Guy"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1974-12-25",
+  "address": [
+    {
+      "use": "home",
+      "type": "both",
+      "text": "300 N State St, Chicago, IL",
+      "line": [
+        "300 N State St"
+      ],
+      "city": "Chicago",
+      "state": "IL"
+    }
+  ]
+}
